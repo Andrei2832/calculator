@@ -1,0 +1,15 @@
+body{
+    background: black;
+}
+#display__enter{
+    width: 400px;
+    height: 40px;
+    font-size: 20px;
+    margin: 5px;
+}
+.keys_style-buttons{
+    width: 40px;
+    height: 40px;
+    font-size: 14px;
+
+}
