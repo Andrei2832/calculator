@@ -1,15 +1,32 @@
 body{
-    background: black;
+    background: white;
+}
+.container{
+    width: 350px;
+    box-sizing: border-box;
+    margin: 30px auto;
+
+}
+#display__history{
+    width: 320px;
+    height: 20px;
+    text-align: right;
+
+    margin: 0 5px ;
 }
 #display__enter{
-    width: 400px;
+    width: 320px;
     height: 40px;
-    font-size: 20px;
-    margin: 5px;
+    font-size: 26px;
+    text-align: right;
+
+    margin: 0 5px;
 }
 .keys_style-buttons{
-    width: 40px;
-    height: 40px;
-    font-size: 14px;
-
+    width: 50px;
+    height: 50px;
+    font-size: 16px;
+    font-family: Arial, serif;
+    border-radius: 30px;
+    margin: 15px;
 }

@@ -7,7 +7,7 @@ document.querySelector('#display__enter').addEventListener('keydown',function (e
     }
     let val = document.querySelector('#display__enter');
     val.oninput = function (){
-        val.value = val.value.replace (/[^+\-\/=*.\d]/g, '');
+        val.value = val.value.replace (/[^+\-*.\d]/g, '');
     }
 });
 
@@ -36,6 +36,7 @@ function click_button(ev){
             } else if (ev.target.innerHTML === '+/–'){
                 textArea.value = textArea.value * -1;
             } else if (ev.target.innerHTML === '=') {
+                document.querySelector('#display__history').value = textArea.value;
                 textArea.value = eval(textArea.value);
             } else{
                 textArea.value += ev.target.innerHTML;
